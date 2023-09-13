@@ -1,0 +1,236 @@
+<!--got code snippet help from Bootstrap documentation-->
+<!--carousel help from https://www.folkstalk.com/2022/09/carousel-bootstrap-with-code-examples.html and this StackOverflow page for JS script help https://stackoverflow.com/questions/66446867/my-bootstrap-5-carousel-buttons-are-not-working-->
+<!-- for help with the code for the navigation bar, I used the Bootstrap documentation: https://getbootstrap.com/docs/4.0/components/navbar/ -->
+<!-- for dropdown help, I used the Bootstrap documentation: https://getbootstrap.com/docs/4.0/components/dropdowns/-->
+<!-- for text truncating help, I used the Bootstrap documentation https://getbootstrap.com/docs/4.0/utilities/text/-->
+<!-- for help placing two images on top of each other, I used code from https://www.w3docs.com/snippets/css/how-to-position-one-image-on-top-of-another-in-html-css.html-->
+<!-- for help on writing an apostrophe https://www.educative.io/answers/how-to-create-the-apostrophe-symbol-in-html-->
+<!-- for help with adding the video, I used the Bootstrap documentation https://getbootstrap.com/docs/4.0/utilities/embed/ -->
+<!-- for help with flex structure, I used the Bootstrap documentation https://getbootstrap.com/docs/4.0/utilities/flex/-->
+<!-- for help with form input boxes, I used the Bootstrap documentation https://getbootstrap.com/docs/4.0/components/forms/-->
+<!-- icons are from icons8.com -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="Peak Blue Logo.png" sizes="16x16">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Peak Athletics Ashburn</title>
+</head>
+
+<body>
+    <div class="d-flex container-fluid" style="background-color:rgba(21, 38, 58, 1); justify-content: space-between;">
+        <div class="d-flex" style="align-items:center; justify-content: center;">
+            <img src="icons8-email-30.png" alt="email icon"
+                style="width: 27px; height: 20px; margin-left: 10px; margin-right: 10px;">
+            <a href="mailto:amanda@peakathleticsashburn.com">
+                <h4>Email</h4>
+            </a>
+            <img src="icons8-phone-50.png" alt="phone icon"
+                style="width: 20px; height: 20px; margin-left: 20px; margin-right: 10px;">
+            <a href="tel:+15714428915">
+                <h4>(571) 442-8915</h4>
+            </a>
+        </div>
+        <div class="d-flex" style="align-items: center; justify-content: center; padding-right: 10px;">
+            <img src="icons8-location-50.png" alt="location icon"
+                style="width: 20px; height: 20px; text-align: center; align-self: center; margin-left: 6px;">
+            <h4 style="text-align:center; margin-left:4px">21720 Red Rum Dr Ashburn, VA 20147</h4>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg" style="padding-left: 1rem; ">
+        <a class="navbar-brand" href="#"><img src="logo-main.png" height="85rem" alt="Peak Athletics Ashburn Logo" ></a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Our Work
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="issue.html">The Issue</a>
+                        <a class="dropdown-item" href="solution.html">Our Solution</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div
+        style="background-color: rgba(230, 245, 245, 1);">
+        <img src="Peak Facility Overview shaded.png" alt="Peak Athletics Facility Photo"
+        style="width: 120%; margin-bottom: 3rem; justify-content:left; margin-left: 0rem;">
+        <div class="d-flex container row" style="justify-content: center; align-items: center;">
+            
+    
+
+            <div class="row" style="justify-content: center;">
+                <h2>Mental Health Support for Physicians</h2>
+                <h3 style="margin-top: 1rem;">What You Need, Where You Need, When You Need</h3>
+            </div>
+        </div>
+    </div>
+
+    <hr style="margin:0; border-width: 8px; color: rgba(245, 132, 61, 1); opacity: 1;">
+
+    <div class="container-fluid justify-content-center" style=" padding: 4rem; ">
+        <div class="row" style="justify-content: center; align-content: center; margin-top: 2rem; margin-bottom: 1rem;">
+            <h1>Physicians are modern day heroes. They see horrendous traumas and work relentlessly to provide care.
+                Day-in and day-out, physicians: </h1>
+        </div>
+        <div class="row" style="justify-content: center; align-content: center;">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">see the human body suffer from disease and calamities</li>
+                <li class="list-group-item">risk deadly exposures</li>
+                <li class="list-group-item">experience the stress of medical errors and complications</li>
+                <li class="list-group-item">feel restricted by the insurance and resource limitations that cause moral
+                    injury</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr style="margin:0; border-width: 3px; color: rgba(245, 132, 61, 1); opacity: 1;">
+
+    <div class="container-fluid"
+        style="justify-content: space-around; padding: 4rem; background-color: rgba(230, 245, 245, 1);">
+        <div class="d-flex container row align-items-center justify-content-center">
+            <h1 style="color:rgba(52, 63, 153, 1)">The impact of traumatic events on physicians is devastating.</h1>
+            <div id="mental health statistics" style="margin-top: 2rem;">
+                <div id="carouselStatisticsCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators" style="padding-bottom: 1rem;">
+                        <button type="button" data-bs-target="#carouselStatisticsCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselStatisticsCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselStatisticsCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselStatisticsCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="portBox">
+                                <div class="d-flex flex-column justify-content-center">
+                                    <h4 style="text-align: center; margin: 0.5rem; align-self: center;">24%</h4>
+                                    <h2
+                                        style="text-align: center; margin: 0.5rem; align-self: center; font-weight: normal;">
+                                        of physicians report being clinically depressed</h2>
+                                    <h6 style="text-align: center; margin: 0.5rem; align-self: center;">
+                                        https://www.fiercehealthcare.com/providers/physicians-are-twice-likely-general-population-attempt-suicide-medscape-survey-found
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="portBox">
+                                <div class="d-flex flex-column justify-content-center">
+                                    <h4 style="text-align: center; margin: 0.5rem; align-self: center;">1 in 10</h4>
+                                    <h2
+                                        style="text-align: center; margin: 0.5rem; align-self: center; font-weight: normal;">
+                                        training physicians developed PTSD at the end of their first internship year
+                                    </h2>
+                                    <h6 style="text-align: center; margin: 0.5rem; align-self: center;">
+                                        https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2780781
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="portBox">
+                                <div class="d-flex flex-column justify-content-center">
+                                    <h4 style="text-align: center; margin: 0.5rem; align-self: center;">1 in 11</h4>
+                                    <h2
+                                        style="text-align: center; margin: 0.5rem; align-self: center; font-weight: normal;">
+                                        physicians reported having suicidal thoughts</h2>
+                                    <h6 style="text-align: center; margin: 0.5rem; align-self: center;">
+                                        https://www.fiercehealthcare.com/providers/physicians-are-twice-likely-general-population-attempt-suicide-medscape-survey-found
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="portBox">
+                                <div class="d-flex flex-column justify-content-center">
+                                    <h2
+                                        style="text-align: center; margin: 0.5rem; align-self: center; font-weight: bold; color:rgba(245, 132, 61, 1)">
+                                        Physicians have the <span style="color:rgba(52, 63, 153, 1)">highest suicide
+                                            rate</span> of any profession with a rate <span
+                                            style="color: rgba(52, 63, 153, 1)">twice that of the general
+                                            population.</span></h2>
+                                    <h6 style="text-align: center; margin: 0.5rem; align-self: center;">
+                                        https://www.medscape.com/viewarticle/896257
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselStatisticsCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselStatisticsCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid"
+        style="padding-bottom: 4rem; padding-top: 4rem; padding-left: 3rem; padding-right: 3rem; background-color: rgba(52, 63, 153, 1); align-items: center; justify-content: center;">
+        <div class="d-flex justify-content-center">
+            <h1 style="color:#fff">There needs to be accessible and appealable mental health support for physicians.
+                There needs to be an app that provides physicians <a style="font-style: italic;">What You Need, Where
+                    You Need, When You Need</a>.</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <h1 style="margin-top: 1rem; color: #fff;">Thus, we built the WYN Health app.</h1>
+        </div>
+        <div class="d-flex justify-content-center" style="margin-top: 1rem;">
+            <a href="solution.html" style="align-items: center; justify-content: center; ">
+                <button type="button" class="btn btn-primary"
+                    style="background-color: rgba(230, 245, 245, 1); color: rgba(52, 63, 153, 1); border-color: rgba(245, 132, 61, 1); border-width: 3px; font-weight: 600; font-size: xx-large;">View
+                    the WYN Health App</button>
+            </a>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

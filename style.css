@@ -1,0 +1,102 @@
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    color: #fff;
+    text-align: center;
+}
+
+nav,.navbar-expand-lg {
+    background-color: rgba(38, 97, 149, 1);
+    justify-content: space-around;
+
+}
+
+.navbar-nav{
+font-size:x-large;
+font-weight: 600;
+--bs-nav-link-color: #fff;
+font-family: 'Lora';
+justify-content: space-around;
+}
+
+.navbar-collapse{
+    justify-content: space-around;
+}
+
+
+.nav-item{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.list-group-item {
+    background-color: rgba(52, 63, 153, 1);
+    color: #fff;
+    font-size: large;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    color: rgba(52, 63, 153, 1);
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    font-weight: 300;
+    font-style: italic;
+    color: rgba(52, 63, 153, 1);
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Lora';
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+
+.portBox {
+    border-color: rgba(245, 132, 61, 1);
+    border-width: 3px 3px 3px;
+    border-style: solid;
+    box-shadow: 4px 4px 4px 4px rgb(130, 129, 130);
+    background-color: #fff;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("left arrow orange Background Removed.png");
+    margin-left: -20vw;
+}
+
+.carousel-control-next-icon {
+    background-image: url("right arrow orange Background Removed.png");
+    margin-right: -20vw;
+}
+
+
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    font-weight: 300;
+    color: rgba(52, 63, 153, 1);
+    text-align: center;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-small;
+    font-weight: 300;
+    color: rgba(52, 63, 153, 1);
+    text-align: center;
+}
