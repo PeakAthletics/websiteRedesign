@@ -43,7 +43,7 @@ opacity: 0.5;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: auto;
+    height: 80vh;
     margin: 0rem;
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -81,7 +81,7 @@ h2 {
 
 h3 {
     font-family: 'Encode Sans Condensed';
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 500;
     color:rgba(38, 97, 149, 1);
     text-align: center;
@@ -98,37 +98,20 @@ h4 {
 h5 {
     font-family: 'Lora';
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
+    font-style: italic;
     color: rgba(21, 38, 58, 1);
     text-align: center;
 }
 
-.portBox {
-    border-color: rgba(245, 132, 61, 1);
-    border-width: 3px 3px 3px;
-    border-style: solid;
-    box-shadow: 4px 4px 4px 4px rgb(130, 129, 130);
-    background-color: #fff;
-}
-
-.carousel-control-prev-icon {
-    background-image: url("left arrow orange Background Removed.png");
-    margin-left: -20vw;
-}
-
-.carousel-control-next-icon {
-    background-image: url("right arrow orange Background Removed.png");
-    margin-right: -20vw;
-}
-
-
-
-
-
 h6 {
-    font-family: 'Roboto', sans-serif;
-    font-size: x-small;
-    font-weight: 300;
-    color: rgba(52, 63, 153, 1);
+    font-family: 'Encode Sans Condensed';
+    font-size: 40px;
+    font-weight: 200;
+    color:#fff;
     text-align: center;
 }
+
+
+
+
