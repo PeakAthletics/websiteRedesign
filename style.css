@@ -114,4 +114,20 @@ h6 {
 
 
 
+.portBox {
+    
+    background-color: #fff;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("left arrow.svg");
+    margin-left: 3vw;
+    width: 20vw;
+}
+
+.carousel-control-next-icon {
+    background-image: url("right arrow.svg");
+    margin-right: 3vw;
+    width:20vw;
+}
 
