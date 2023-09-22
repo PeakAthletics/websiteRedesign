@@ -131,3 +131,22 @@ h6 {
     width:20vw;
 }
 
+.btn{
+    background-color: rgba(21, 38, 58, 1); 
+    color: #fff; 
+    font-family: 'Lora'; 
+    margin-bottom: 1rem; 
+    margin-top: 1rem; 
+}
+
+.list-group-item {
+    background-color:  rgba(21, 38, 58, 1);
+    color:#fff;
+    font-family: 'Lora';
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    border:3px solid #fff;
+
+    
+}
