@@ -121,6 +121,7 @@ h6 {
     overflow: hidden;
     justify-self: center;
     width: fit-content;
+    max-width: 75vw;
     padding: 3rem;
 }
 
@@ -150,6 +151,8 @@ h6 {
     font-weight: 400;
     text-align: center;
     border:3px solid #fff;
+}
 
-    
+.row {
+    --bs-gutter-x: 0 rem;
 }
