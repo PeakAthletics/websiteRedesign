@@ -115,20 +115,23 @@ h6 {
 
 
 .portBox {
-    
+    display: flex;
+    justify-content: center;
     background-color: #fff;
+    overflow: hidden;
+    justify-self: center;
+    width: fit-content;
+    padding: 3rem;
 }
 
 .carousel-control-prev-icon {
-    background-image: url("left arrow.svg");
-    margin-left: 3vw;
-    width: 20vw;
+    background-image: url("white arrow.svg");
+    width: 2rem;
 }
 
 .carousel-control-next-icon {
-    background-image: url("right arrow.svg");
-    margin-right: 3vw;
-    width:20vw;
+    background-image: url("white\ right\ arrow.svg");
+    width:2rem;
 }
 
 .btn{
